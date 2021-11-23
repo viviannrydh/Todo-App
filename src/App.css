@@ -1,0 +1,132 @@
+body{
+  background-color:rgb(167, 215, 243);
+}
+h1{
+  color:rgb(192, 229, 247);
+  text-align: center;
+  font-family: fantasy;
+  font-size: 3em;
+  padding-top: 10px;
+}
+
+.header-btn{
+  width:10%;
+  height:150px;
+  font-size: 7em;
+  
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.header-btn-one{
+  margin-left: 20%;
+  background-color: rgb(69, 209, 228);
+  color:rgb(1, 26, 43);
+  transform: rotate(-20deg);
+}
+.header-btn-two{
+  margin-left: 5%;
+  transform: rotate(20deg);
+  background-color: rgb(84, 146, 84);
+}
+.header-btn-three{
+  margin-left: 10%;
+  transform: rotate(-20deg);
+  background-color: rgb(240, 223, 131);
+}
+.header-btn-four{
+  margin-left: 5%;
+  transform: rotate(20deg);
+  background-color: darksalmon;
+}
+.header-btn-five{
+  margin-left: 5%;
+  transform: rotate(20deg);
+  background-color: rgb(223, 97, 97);
+}
+.form-wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width:60%;
+  margin-left: 20%;
+}
+
+.input-field{
+  width:62%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height:40px;
+}
+.todo-input{
+  width:80%;
+  font-size: 1.5em;
+  color:rgb(2, 40, 65);
+}
+.add-button{
+  width:60px;
+  height:60px;
+  font-size: 3em;
+  background-color: green;
+  color:white;
+}
+
+.drop-down{
+  height:60px;
+  margin-left:0px;
+  font-size: 1.5em;
+  color:rgb(2, 42, 75);
+}
+
+.todo-container{
+  margin-top: 5%;
+  background: rgb(13, 123, 173);
+  width:32%;
+  margin-left: 34%;
+  padding-bottom: 5%;
+}
+.todo-lists{
+  display: flex;
+  flex-direction: column;
+  width:90%;
+  margin-left: 0%;
+  margin-top: 2%;
+}
+
+.todo-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.todo-item{
+  background-color: rgb(221, 238, 247);
+  width:70%;
+  height: 50px;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 1.5em;
+  color:rgb(1, 38, 49);
+}
+
+.todo-item-btns{
+  margin-top: 10px;
+  
+}
+.complete-btn{
+  height:60px;
+  width:60px;
+}
+.trash-btn{
+  height:60px;
+  width:60px;
+  
+}
+
+.completed{
+  text-decoration: line-through;
+  opacity: 0.5;
+}
