@@ -1,8 +1,8 @@
 body{
-  background-color:rgb(167, 215, 243);
+  background-color:rgb(45, 49, 51);
 }
 h1{
-  color:rgb(192, 229, 247);
+  color:rgb(65, 70, 3);
   text-align: center;
   font-family: fantasy;
   font-size: 3em;
@@ -71,6 +71,7 @@ h1{
   font-size: 3em;
   background-color: green;
   color:white;
+  cursor: pointer;
 }
 
 .drop-down{
@@ -82,7 +83,7 @@ h1{
 
 .todo-container{
   margin-top: 5%;
-  background: rgb(13, 123, 173);
+  background: rgb(209, 216, 108);
   width:32%;
   margin-left: 34%;
   padding-bottom: 5%;
@@ -102,7 +103,7 @@ h1{
 }
 
 .todo-item{
-  background-color: rgb(221, 238, 247);
+  background-color: rgb(248, 248, 236);
   width:70%;
   height: 50px;
   margin-top: 10px;
@@ -114,16 +115,17 @@ h1{
 
 .todo-item-btns{
   margin-top: 10px;
-  
+  cursor: pointer;
 }
 .complete-btn{
   height:60px;
   width:60px;
+  cursor: pointer;
 }
 .trash-btn{
   height:60px;
   width:60px;
-  
+  cursor: pointer;
 }
 
 .completed{
