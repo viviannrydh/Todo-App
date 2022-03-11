@@ -5,16 +5,16 @@ h1{
   color:rgb(65, 70, 3);
   text-align: center;
   font-family: fantasy;
-  font-size: 3em;
+  font-size: 3rem;
   padding-top: 10px;
+  
 }
 
 .header-btn{
   width:10%;
   height:150px;
   font-size: 7em;
-  
-  margin-top: 50px;
+  margin-top:12%;
   margin-bottom: 100px;
 }
 .header-btn-one{
