@@ -6,8 +6,7 @@ import '../App.css'
 const Todo = ({ text, todo, todos, setTodos }) => {
   const handleDelete = () => { 
     setTodos(todos.filter(element => (
-     // element.id !== todo.id
-      console.log(element)
+      element.id !== todo.id
     )))
   }  
 

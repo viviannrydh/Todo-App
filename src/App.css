@@ -179,6 +179,13 @@ h1{
 }
 
 }
+@media only screen and (max-width: 949px){
+  .header-btn{
+    width:12%;
+    margin-left:10%;
+  }
+}
+
 @media only screen and (max-width: 759px){
    .header-btn{
     font-size: 3rem;
@@ -232,7 +239,7 @@ h1{
 @media only screen and (max-width: 558px){
   .todo-container{
     width:55%;
-    margin-left:25%;
+    margin-left:20%;
     margin-top:10%;
   }
     .header-btn{
